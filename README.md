@@ -1,43 +1,42 @@
 # Future Caribbean Global AI Buildathon
 
 Tag: `worth_it`
+Track interno: `ai_startup_pitch`
+Track oficial elegido: `04 - Climate Risk & Disaster Coordination`
 
-Link: https://futurecaribbean.com/
+Producto: `Caribbean Coordination Desk`
 
-## Fechas
+Demo deployable: abrir `index.html` o desplegar este directorio como sitio
+estatico en Vercel, Netlify, GitHub Pages o cualquier CDN.
 
-- Applications abiertas desde mayo 2026 segun sitio.
-- Build phase remoto de 3 semanas para equipos seleccionados.
-- Revalidar fecha de cierre exacta en formulario.
+## Entregables
 
-## Beneficio
+- Tarea principal: `TASK.md`
+- Track elegido: `docs/track_selection.md`
+- Plan de 3 semanas: `docs/three_week_plan.md`
+- Pitch: `docs/pitch.md`
+- Application draft: `docs/application_draft.md`
+- Evidencia: `docs/evidence.md`
+- Checklist prod 100: `docs/checklist.md`
+- Riesgos: `docs/risks.md`
+- Automatizacion de formulario: `scripts/fill_future_caribbean_application.mjs`
+- Respuestas base: `application/future_caribbean.answers.template.json`
 
-- USD 50k cash prizes.
-- Compute H200 durante build phase.
-- Pitch/exposicion NYSE para top teams.
+## Comandos
 
-## Requisitos
+```powershell
+npm run qa:smoke
+npm run serve
+npm run form:dry-run
+```
 
-- Equipos globales.
-- Sistema deployable para economia real, no solo demo.
-- Tracks: tourism, payments, healthcare, disaster coordination, energy,
-  ocean, food systems, arts, real estate, open track.
+`form:dry-run` no envia nada externo. Para submit real se requiere completar
+datos personales, link Loom real y ejecutar el script con `--submit` y
+`APPLICATION_CONSENT_TO_SUBMIT=yes`.
 
 ## Por que vale
 
-El criterio del sitio coincide con nuestra ventaja: construir infraestructura
-operativa rapidamente. No exige que el codigo exista antes.
-
-## Producto recomendado
-
-`Caribbean Coordination Desk`: agente de coordinacion para disaster response,
-tourism disruptions o food logistics, con datos, tareas, alertas y reportes.
-
-## Sprint de 5 dias
-
-1. Dia 1: escoger track y problema.
-2. Dia 2: demo con fuentes abiertas y workflow de coordinacion.
-3. Dia 3: agent loop + task board.
-4. Dia 4: dashboard operativo.
-5. Dia 5: pitch y application.
-
+Future Caribbean pide sistemas deployables para economias reales. Esta entrega
+posiciona una consola de coordinacion operacional que reduce retrasos entre
+alertas, recursos, partners y decisiones durante eventos climaticos y
+disrupciones regionales.

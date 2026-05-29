@@ -1,0 +1,43 @@
+# Prod 100 Checklist
+
+## Application readiness
+
+- [x] Track selected.
+- [x] Problem statement written.
+- [x] Proposed solution written.
+- [x] Why Caribbean/world answer written.
+- [x] Five-year startup vision written.
+- [x] Tools, compute and dataset answers drafted.
+- [x] Consent fields represented in template.
+- [ ] Applicant personal fields completed.
+- [ ] Loom video recorded and linked.
+- [ ] Final submit executed after explicit approval.
+
+## Demo readiness
+
+- [x] Static demo implemented.
+- [x] Scenario switching implemented.
+- [x] Operational map implemented.
+- [x] Task board implemented.
+- [x] Brief export implemented.
+- [x] Pitch copy implemented.
+- [x] Responsive layout included.
+- [x] Static hosting config included.
+- [ ] External production URL deployed.
+
+## Evidence readiness
+
+- [x] Official source URLs captured.
+- [x] Application fields mapped.
+- [x] Dry-run automation script included.
+- [x] Smoke test run logged.
+- [x] Payload preview generated.
+- [x] Screenshots captured.
+
+## Submission safety
+
+- [x] No credentials committed.
+- [x] Real external submit gated by env var.
+- [x] Payload preview redacts personal fields.
+- [x] Placeholder values block real submit.
+- [x] Sensitive data answer avoids private data for demo.

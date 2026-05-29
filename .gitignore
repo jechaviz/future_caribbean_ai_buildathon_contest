@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+evidence/*.png
+evidence/*.webp
+evidence/*.log
+evidence/application_payload_preview.json
+application/future_caribbean.answers.local.json

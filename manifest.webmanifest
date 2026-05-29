@@ -1,0 +1,9 @@
+{
+  "name": "Caribbean Coordination Desk",
+  "short_name": "Coord Desk",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#0f2a33",
+  "description": "Operational AI coordination desk for Caribbean climate and disaster response."
+}

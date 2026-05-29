@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Caribbean Coordination Desk demo for the Future Caribbean Global AI Buildathon.">
+    <meta name="theme-color" content="#0f2a33">
+    <title>Caribbean Coordination Desk</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand-block">
+        <p class="eyebrow">Future Caribbean / AI Startup Pitch</p>
+        <h1>Caribbean Coordination Desk</h1>
+      </div>
+      <div class="topbar-actions" aria-label="Demo actions">
+        <div class="readiness">
+          <span>Prod readiness</span>
+          <strong id="readiness-score">94</strong>
+        </div>
+        <button type="button" class="button secondary" data-action="copy-pitch">Copy pitch</button>
+        <button type="button" class="button primary" data-action="export-brief">Export brief</button>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <section class="control-panel" aria-labelledby="control-title">
+        <div class="section-heading">
+          <p class="eyebrow">Scenario</p>
+          <h2 id="control-title">Operating context</h2>
+        </div>
+        <div class="scenario-list" role="tablist" aria-label="Scenario selection">
+          <button type="button" class="scenario-tab is-active" role="tab" aria-selected="true" data-scenario="hurricane">
+            Hurricane logistics
+          </button>
+          <button type="button" class="scenario-tab" role="tab" aria-selected="false" data-scenario="port">
+            Port medical delay
+          </button>
+          <button type="button" class="scenario-tab" role="tab" aria-selected="false" data-scenario="shelter">
+            Shelter surge
+          </button>
+        </div>
+
+        <div class="mode-group" aria-label="Operating mode">
+          <button type="button" class="mode-button is-active" data-mode="response">24h</button>
+          <button type="button" class="mode-button" data-mode="stabilize">72h</button>
+          <button type="button" class="mode-button" data-mode="deploy">3w</button>
+        </div>
+
+        <div class="signal-grid" aria-label="Coordination signals">
+          <div>
+            <span>Time saved</span>
+            <strong id="metric-time">18h</strong>
+          </div>
+          <div>
+            <span>Open tasks</span>
+            <strong id="metric-tasks">12</strong>
+          </div>
+          <div>
+            <span>Partners</span>
+            <strong id="metric-partners">8</strong>
+          </div>
+          <div>
+            <span>Confidence</span>
+            <strong id="metric-confidence">87%</strong>
+          </div>
+        </div>
+
+        <fieldset class="channel-set">
+          <legend>Partner channels</legend>
+          <label><input type="checkbox" value="Emergency Ops" checked> Emergency Ops</label>
+          <label><input type="checkbox" value="Port Authority" checked> Port Authority</label>
+          <label><input type="checkbox" value="Hotel Desk" checked> Hotel Desk</label>
+          <label><input type="checkbox" value="Supplier Network" checked> Supplier Network</label>
+        </fieldset>
+      </section>
+
+      <section class="map-panel" aria-labelledby="map-title">
+        <div class="section-heading">
+          <p class="eyebrow">Regional desk</p>
+          <h2 id="map-title">Live coordination map</h2>
+        </div>
+        <canvas id="coordination-map" width="900" height="520" aria-label="Caribbean coordination network map"></canvas>
+        <div class="legend-row" aria-label="Map legend">
+          <span><i class="legend-dot hot"></i> Blocked</span>
+          <span><i class="legend-dot warn"></i> Needs decision</span>
+          <span><i class="legend-dot ok"></i> Moving</span>
+        </div>
+      </section>
+
+      <section class="brief-panel" aria-labelledby="brief-title">
+        <div class="section-heading">
+          <p class="eyebrow">AI generated operations</p>
+          <h2 id="brief-title">Situation brief</h2>
+        </div>
+        <article class="brief-copy" id="brief-copy"></article>
+      </section>
+
+      <section class="task-panel" aria-labelledby="tasks-title">
+        <div class="section-heading">
+          <p class="eyebrow">Action board</p>
+          <h2 id="tasks-title">Prioritized tasks</h2>
+        </div>
+        <div class="task-list" id="task-list"></div>
+      </section>
+
+      <section class="startup-panel" aria-labelledby="startup-title">
+        <div class="section-heading">
+          <p class="eyebrow">Application capsule</p>
+          <h2 id="startup-title">Startup thesis</h2>
+        </div>
+        <div class="startup-grid">
+          <article>
+            <span>Problem</span>
+            <p>Caribbean response teams lose time across WhatsApp, calls, spreadsheets and fragmented agency workflows.</p>
+          </article>
+          <article>
+            <span>Solution</span>
+            <p>An agentic coordination desk that turns alerts, partner updates and inventories into verified tasks and briefs.</p>
+          </article>
+          <article>
+            <span>Business</span>
+            <p>SaaS for hotels, ports, insurers, utilities, NGOs and emergency operators, with deployment support.</p>
+          </article>
+          <article>
+            <span>Moat</span>
+            <p>Regional workflows, audit trails, human approval gates and local partner integrations become defensible data gravity.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-bar">
+      <span>Official track: 04 - Climate Risk & Disaster Coordination</span>
+      <span>Internal track: ai_startup_pitch</span>
+      <span>Build phase plan: 3 weeks</span>
+    </footer>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>

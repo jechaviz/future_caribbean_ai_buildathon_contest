@@ -1,0 +1,15 @@
+{
+  "name": "future-caribbean-ai-buildathon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "qa:smoke": "node scripts/smoke.mjs",
+    "form:dry-run": "node scripts/fill_future_caribbean_application.mjs --answers application/future_caribbean.answers.template.json --dry-run --allow-placeholders",
+    "form:submit": "node scripts/fill_future_caribbean_application.mjs --answers application/future_caribbean.answers.template.json --submit"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
