@@ -14,49 +14,48 @@ https://jechaviz.github.io/future_caribbean_ai_buildathon_web/
 
 ## Why this track
 
-I chose Climate Risk & Disaster Coordination because the Caribbean has recurring
-climate disruption, fragmented operators and high cost of coordination delay. A
-deployable AI coordination desk can turn scattered alerts, resource updates and
-partner messages into auditable actions, shared briefs and faster decisions.
+I chose Climate Risk & Disaster Coordination because it is the clearest place to
+prove FutureCaribbean's T=0 thesis. Hurricanes, floods and logistics disruption
+create expensive coordination lag across hotels, ports, clinics, insurers, NGOs
+and emergency teams. A deployable agentic network can compress hours of calls
+into verified decisions, owners, ETAs and stakeholder briefs.
 
 ## Real-world problem
 
-During hurricanes, floods and port disruptions, hotels, clinics, ports,
-suppliers, NGOs and emergency teams often coordinate through calls, WhatsApp
-threads, email and spreadsheets. The same request can be duplicated, missed or
-delayed. Critical supplies, transport changes and public updates move slower
-than the event itself.
+During hurricanes, floods and port disruptions, critical operators coordinate
+through calls, WhatsApp threads, email and spreadsheets. The region is not
+small; it is fragmented. The economic drag is the gap between when a decision
+should happen and when it clears across agencies, suppliers, hotels, ports and
+funders.
 
 ## Proposed solution
 
-Caribbean Coordination Desk is an agentic operating layer for regional response.
-It ingests advisories, partner updates, resource inventories and open requests;
-classifies urgency; proposes tasks with owners and ETAs; highlights evidence
-gaps; and generates trusted situation briefs for operators and stakeholders.
-The demo shows three scenarios: hurricane logistics, medical supply delay and
-shelter surge.
+Caribbean T0 Resilience Network is an agentic coordination layer for climate and
+disaster operations. It ingests public advisories, partner updates, inventories
+and requests; normalizes them into incident events; scores urgency and economic
+drag; creates owner-led tasks with evidence; and drafts briefs that stay behind
+human approval gates. The demo shows the cockpit, agent trace, impact economics
+and paid-pilot deal room.
 
 ## Why it matters
 
-The Caribbean is a fragmented but highly connected market. Reducing
-coordination time during climate and logistics disruption protects lives,
-tourism revenue, healthcare continuity and regional trust. The same architecture
-can help other island and emerging markets where institutions are capable but
-workflows are disconnected.
+Reducing coordination time protects lives, tourism revenue, medical continuity,
+donor trust and regional economic resilience. If the Caribbean can compress
+disaster coordination from hours to minutes, the same operating model can become
+exportable infrastructure for other island and emerging markets.
 
 ## Five-year vision
 
-In five years, Caribbean Coordination Desk can become the trusted workflow
-network for regional resilience. Hotels, ports, insurers, utilities, NGOs and
-emergency operators subscribe to shared coordination workspaces, local data
-connectors and deployment support. The company becomes infrastructure for faster
-regional decisions, not just another dashboard.
+In five years, Caribbean T0 Resilience Network can become the trusted
+coordination fabric for Caribbean resilience: a SaaS and deployment network used
+by hotels, ports, insurers, utilities, NGOs, donors and emergency operators to
+clear decisions faster across fragmented markets.
 
 ## Tools and data
 
-Open-source agentic frameworks, OpenClaw-compatible workflow concepts,
-JavaScript demo, cloud static hosting, structured public datasets, future
-integrations with messaging, email, maps, vector search and LLM APIs.
+Vlang coordination core, Vue3 CDN + SFC + UnoCSS cockpit, OpenClaw-compatible
+agent workflow design, public/synthetic datasets, messaging/email connectors,
+vector search and LLM APIs.
 
 Initial build uses public and non-sensitive data: National Hurricane Center
 advisories, public weather feeds, open map layers, public port/airport status

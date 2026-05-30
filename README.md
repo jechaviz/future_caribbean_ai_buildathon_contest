@@ -4,7 +4,7 @@ Tag: `worth_it`
 Track interno: `ai_startup_pitch`
 Track oficial elegido: `04 - Climate Risk & Disaster Coordination`
 
-Producto: `Caribbean Coordination Desk`
+Producto: `Caribbean T0 Resilience Network`
 
 Demo deployable: `C:\git\websites\future_caribbean_ai_buildathon`
 Demo publico: https://jechaviz.github.io/future_caribbean_ai_buildathon_web/
@@ -54,6 +54,6 @@ datos personales, link Loom real y ejecutar `form --submit` con
 ## Por que vale
 
 Future Caribbean pide sistemas deployables para economias reales. Esta entrega
-posiciona una consola de coordinacion operacional que reduce retrasos entre
-alertas, recursos, partners y decisiones durante eventos climaticos y
-disrupciones regionales.
+posiciona infraestructura T=0: una red agentica que comprime horas de llamadas,
+WhatsApp, hojas de calculo y approvals en minutos de tareas verificadas,
+briefs aprobables, impacto economico y pilotos pagables.

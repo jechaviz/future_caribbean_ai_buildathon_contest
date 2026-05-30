@@ -62,10 +62,14 @@ Completed on 2026-05-29, v0.9 Vue/Vlang product slice:
   `automation/waiba/future_caribbean_submission_gate.playbook.yml`.
 - Public demo now includes a judge-mode readout and Loom recording structure.
 - Loom recording script prepared at `docs/loom_video_script.md`.
+- v1.0 punch upgrade added T0 cockpit, visible agent trace, economic drag,
+  paid-pilot deal room and updated application answers.
+- Local screenshots captured:
+  - `C:\git\websites\future_caribbean_ai_buildathon\evidence\tzero-desktop.png`
+  - `C:\git\websites\future_caribbean_ai_buildathon\evidence\tzero-mobile-polished.png`
 
 ## Known blockers before real submission
 
-- Replace applicant identity placeholders.
-- Add a real website/demo URL if deployed externally.
+- Use the profile-synced local answers for applicant identity.
 - Record and paste a 2 to 5 minute Loom video.
 - Confirm legal consent choices are correct for the applicant.

@@ -8,8 +8,9 @@ startup pitch, official application draft, evidence, checklist and risk plan.
 
 ## Chosen Product
 
-`Caribbean Coordination Desk` is an AI coordination operating layer for climate
-risk and disaster response in fragmented Caribbean workflows.
+`Caribbean T0 Resilience Network` is agentic coordination infrastructure for
+climate risk and disaster response in fragmented Caribbean markets. The promise:
+compress hours of calls into minutes of verified tasks, approvals and briefs.
 
 ## Chosen Track
 
@@ -20,12 +21,14 @@ risk and disaster response in fragmented Caribbean workflows.
 
 - Demo runs as Vue3 CDN + SFC + UnoCSS from
   `C:\git\websites\future_caribbean_ai_buildathon`.
-- Demo can be deployed to Netlify, Vercel, GitHub Pages or any static host.
+- Demo is deployed to GitHub Pages and can also run on Netlify, Vercel or any
+  static host.
 - Vlang product CLI generates datasets, application payload previews and QA.
 - Application answers are mapped to the official form fields.
 - External submission automation is dry-run by default and gated for real submit.
 - Evidence records official requirements, local checks and remaining blockers.
-- Pitch and three-week plan are coherent with the official buildathon criteria.
+- Pitch and three-week plan are coherent with T=0, paid pilots and deployable
+  infrastructure criteria.
 
 ## Acceptance Criteria
 
@@ -40,4 +43,4 @@ risk and disaster response in fragmented Caribbean workflows.
 
 ## Current Status
 
-Ready for applicant personalization and Loom recording.
+Ready for Loom recording and explicit final-submit approval.

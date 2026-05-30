@@ -12,6 +12,12 @@ v -path "C:/git/v_projects/lib|@vlib|@vmodules" run C:/git/v_projects/future_car
 v -path "C:/git/v_projects/lib|@vlib|@vmodules" run C:/git/v_projects/future_caribbean_ai_buildathon/cmd/fcbuild -- generate
 ```
 
+## Sync applicant profile
+
+```powershell
+v -path "C:/git/v_projects/lib|@vlib|@vmodules" run C:/git/v_projects/future_caribbean_ai_buildathon/cmd/fcbuild -- profile-sync
+```
+
 ## Dry-run application
 
 ```powershell

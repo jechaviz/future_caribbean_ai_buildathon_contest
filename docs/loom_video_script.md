@@ -8,40 +8,40 @@ Demo URL: https://jechaviz.github.io/future_caribbean_ai_buildathon_web/
 
 1. Open the public demo and start on the hurricane scenario.
 2. Say who you are, that you are applying to the Climate Risk & Disaster
-   Coordination track and that the product is Caribbean Coordination Desk.
-3. Show the active partner channels, readiness score and judge score.
+   Coordination track and that the product is Caribbean T0 Resilience Network.
+3. Show the T0 hero: decision cycle, economic drag, pilot ask and ARR path.
 4. Toggle one channel off and back on to show the desk reacts to operating
    context.
-5. Open the prioritized actions and describe the human approval gate.
-6. Export the brief and explain that the first wedge is hurricane logistics for
-   hotels, ports, insurers, utilities, NGOs and emergency operators.
-7. Close with the three-week plan: operator truth, product pilot, deployment and
-   final pitch.
+5. Show the visible agent trace, prioritized actions and human approval gate.
+6. Show the deal room and explain paid pilot asks for hotels, ports and insurers.
+7. Export the brief and close with the three-week plan: T0 wedge, pilot,
+   deployment and investor-grade pitch.
 
 ## Spoken Script
 
 Hi, I am applying to the Future Caribbean Global AI Buildathon with Caribbean
-Coordination Desk for the Climate Risk & Disaster Coordination track.
+T0 Resilience Network for the Climate Risk & Disaster Coordination track.
 
-The problem I want to solve is coordination delay during hurricanes, floods and
-regional logistics disruption. Critical operators often work across calls,
-WhatsApp, email and spreadsheets, so the same request can be duplicated, missed
-or delayed.
+The problem I want to solve is coordination drag. During hurricanes, floods and
+regional logistics disruption, critical operators work across calls, WhatsApp,
+email and spreadsheets. The cost is not only confusion; it is the hours between
+a signal, a decision, an owner and an approved action.
 
-This demo shows the first wedge: hurricane logistics. The desk ingests alerts,
-partner updates, inventories and open requests, then creates verified tasks,
-owners, ETAs and public-ready situation briefs. The goal is not to remove people
-from decisions. The goal is to make the decision queue clearer, faster and more
-auditable.
+This demo shows the first wedge: hurricane logistics. The network ingests
+alerts, partner updates, inventories and open requests, then creates a verified
+incident ledger with tasks, owners, ETAs, evidence gaps, economic drag and
+public-ready briefs. The goal is not to remove people from decisions. The goal
+is to make the decision queue faster, safer and auditable.
 
-In the buildathon, week one locks the operator workflow and data schema. Week two
-ships the pilot workspace with intake, prioritization and approval gates. Week
-three focuses on deployment, feedback, evidence and the final startup pitch.
+In the buildathon, week one locks the T0 workflow, data schema and pilot wedge.
+Week two ships the cockpit, agent trace, approval gates and buyer-specific pilot
+rooms. Week three focuses on deployment, operator feedback, evidence and the
+final startup pitch.
 
-The business path is B2B SaaS plus deployment support for hotels, ports,
-insurers, utilities, NGOs and emergency operators. If it works, it can become a
-trusted coordination layer for Caribbean resilience and later for other island
-and emerging markets.
+The business path is paid pilots and B2B SaaS plus deployment support for
+hotels, ports, insurers, utilities, NGOs and emergency operators. If it works,
+it can become trusted coordination infrastructure for Caribbean resilience and
+later for other island and emerging markets.
 
 I should be selected because I can bring the product, engineering, automation and
 startup execution needed to turn this from pitch into a working pilot in three

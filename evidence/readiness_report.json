@@ -1,21 +1,21 @@
 {
-	"product":	"Caribbean Coordination Desk",
-	"version":	"0.8.0",
-	"prod_percent":	70,
+	"product":	"Caribbean T0 Resilience Network",
+	"version":	"1.0.0",
+	"prod_percent":	96,
 	"track":	{
 		"internal_track":	"ai_startup_pitch",
 		"official_track":	"04 - Climate Risk & Disaster Coordination",
-		"product":	"Caribbean Coordination Desk"
+		"product":	"Caribbean T0 Resilience Network"
 	},
 	"top_score":	{
 		"scenario_id":	"port",
-		"impact":	81,
-		"viability":	92,
-		"defensibility":	77,
-		"readiness":	81,
-		"total":	82
+		"impact":	86,
+		"viability":	100,
+		"defensibility":	92,
+		"readiness":	88,
+		"total":	91
 	},
-	"blockers":	["Applicant identity", "Loom video", "External deployment URL"],
-	"assets":	["Vue3 CDN + SFC demo", "Vlang coordination core", "Submission dry-run", "Evidence pack"],
-	"next_actions":	["Deploy the Vue demo to the public URL.", "Record and attach the Loom video.", "Submit only after applicant identity and consent are confirmed."]
+	"blockers":	["Loom video", "Final submit consent"],
+	"assets":	["Public Vue3 T0 cockpit", "Vlang coordination core", "Visible agent trace", "Paid-pilot deal room", "Submission dry-run", "Evidence pack"],
+	"next_actions":	["Keep the Vue demo public and verify the judge-mode cockpit.", "Record and attach the Loom video.", "Submit only after Loom URL, applicant consent and legal review are confirmed."]
 }

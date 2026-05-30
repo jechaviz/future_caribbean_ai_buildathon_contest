@@ -15,10 +15,11 @@ communications.
 
 ## Startup thesis
 
-Caribbean Coordination Desk reduces the time between alert, decision, owner and
-execution. The first product is not a generic chatbot. It is an operations desk
-that converts fragmented inputs into auditable tasks, escalation paths and
-stakeholder-ready briefs.
+Caribbean T0 Resilience Network reduces the time between alert, decision, owner
+and execution. The first product is not a generic chatbot. It is an operating
+network that converts fragmented inputs into an auditable incident ledger,
+agent-ranked tasks, escalation paths, economic impact and stakeholder-ready
+briefs.
 
 ## Buyer and user
 
@@ -30,6 +31,8 @@ stakeholder-ready briefs.
 ## Why this beats a normal dashboard
 
 - It outputs actions, not only charts.
+- It makes the T=0 promise measurable: baseline minutes, compressed minutes and
+  at-risk economic drag.
 - It tracks evidence and uncertainty.
 - It keeps humans in approval loops.
 - It can start with public data and synthetic inventories, then expand into
