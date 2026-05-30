@@ -23,7 +23,7 @@
 - [x] Pitch copy implemented.
 - [x] Responsive layout included.
 - [x] Static hosting config included in website repo.
-- [ ] External production URL deployed.
+- [x] External production URL deployed.
 
 ## Evidence readiness
 

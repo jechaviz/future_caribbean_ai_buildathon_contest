@@ -7,12 +7,19 @@ Track oficial elegido: `04 - Climate Risk & Disaster Coordination`
 Producto: `Caribbean Coordination Desk`
 
 Demo deployable: `C:\git\websites\future_caribbean_ai_buildathon`
+Demo publico: https://jechaviz.github.io/future_caribbean_ai_buildathon_web/
 
 Producto/agentes/datasets/QA en Vlang:
 `C:\git\v_projects\future_caribbean_ai_buildathon`
 
 Core reusable:
 `C:\git\v_projects\lib\fc_coordination_core`
+
+Repos:
+
+- Contest packet: https://github.com/jechaviz/future_caribbean_ai_buildathon_contest
+- V product tools: https://github.com/jechaviz/future_caribbean_ai_buildathon
+- Vue demo: https://github.com/jechaviz/future_caribbean_ai_buildathon_web
 
 ## Entregables
 

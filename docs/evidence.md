@@ -18,6 +18,7 @@ Verified on 2026-05-29:
 ## Local artifacts
 
 - Demo: `C:\git\websites\future_caribbean_ai_buildathon`
+- Public demo: https://jechaviz.github.io/future_caribbean_ai_buildathon_web/
 - App stack: Vue3 CDN + SFC + UnoCSS runtime
 - App data: `C:\git\websites\future_caribbean_ai_buildathon\src\data`
 - V product CLI: `C:\git\v_projects\future_caribbean_ai_buildathon`
@@ -50,9 +51,11 @@ Completed on 2026-05-29, v0.9 Vue/Vlang product slice:
 - Edge headless captured website screenshots:
   - `C:\git\websites\future_caribbean_ai_buildathon\evidence\vue-desktop.png`
   - `C:\git\websites\future_caribbean_ai_buildathon\evidence\vue-mobile.png`
+  - `C:\git\websites\future_caribbean_ai_buildathon\evidence\vue-public-desktop.png`
 - Screenshot pixel sanity check:
   - Desktop: 1440x1000, 83 sampled unique colors.
   - Mobile: 390x1100, 58 sampled unique colors.
+- GitHub Pages returned HTTP 200 for the public demo URL.
 
 ## Known blockers before real submission
 
