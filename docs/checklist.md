@@ -36,6 +36,7 @@
 - [x] Line-cap QA covers V, Vue, JS, CSS, HTML, Markdown and JSON.
 - [x] Official application page captured with `vimport`.
 - [x] WAIBA submission gate playbook added.
+- [x] Loom script and recording flow prepared.
 
 ## Submission safety
 

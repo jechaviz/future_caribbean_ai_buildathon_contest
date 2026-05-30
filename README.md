@@ -27,6 +27,7 @@ Repos:
 - Track elegido: `docs/track_selection.md`
 - Plan de 3 semanas: `docs/three_week_plan.md`
 - Pitch: `docs/pitch.md`
+- Loom script: `docs/loom_video_script.md`
 - Application draft: `docs/application_draft.md`
 - Evidencia: `docs/evidence.md`
 - Veloclaw/WAIBA plan: `docs/veloclaw_agent_plan.md`

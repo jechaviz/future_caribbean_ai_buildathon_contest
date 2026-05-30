@@ -60,6 +60,8 @@ Completed on 2026-05-29, v0.9 Vue/Vlang product slice:
   `evidence/vimport_future_caribbean_apply.json`.
 - WAIBA submission gate playbook prepared at
   `automation/waiba/future_caribbean_submission_gate.playbook.yml`.
+- Public demo now includes a judge-mode readout and Loom recording structure.
+- Loom recording script prepared at `docs/loom_video_script.md`.
 
 ## Known blockers before real submission
 
