@@ -6,8 +6,13 @@ Track oficial elegido: `04 - Climate Risk & Disaster Coordination`
 
 Producto: `Caribbean Coordination Desk`
 
-Demo deployable: abrir `index.html` o desplegar este directorio como sitio
-estatico en Vercel, Netlify, GitHub Pages o cualquier CDN.
+Demo deployable: `C:\git\websites\future_caribbean_ai_buildathon`
+
+Producto/agentes/datasets/QA en Vlang:
+`C:\git\v_projects\future_caribbean_ai_buildathon`
+
+Core reusable:
+`C:\git\v_projects\lib\fc_coordination_core`
 
 ## Entregables
 
@@ -19,19 +24,21 @@ estatico en Vercel, Netlify, GitHub Pages o cualquier CDN.
 - Evidencia: `docs/evidence.md`
 - Checklist prod 100: `docs/checklist.md`
 - Riesgos: `docs/risks.md`
-- Automatizacion de formulario: `scripts/fill_future_caribbean_application.mjs`
+- Automatizacion de formulario: `fcbuild form` en Vlang
 - Respuestas base: `application/future_caribbean.answers.template.json`
+- Respuestas generadas: `application/future_caribbean.answers.generated.json`
 
 ## Comandos
 
 ```powershell
-npm run qa:smoke
-npm run serve
-npm run form:dry-run
+C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe generate
+C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe qa
+C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe form --dry-run --allow-placeholders
+C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe serve --site C:\git\websites\future_caribbean_ai_buildathon
 ```
 
-`form:dry-run` no envia nada externo. Para submit real se requiere completar
-datos personales, link Loom real y ejecutar el script con `--submit` y
+`form --dry-run` no envia nada externo. Para submit real se requiere completar
+datos personales, link Loom real y ejecutar `form --submit` con
 `APPLICATION_CONSENT_TO_SUBMIT=yes`.
 
 ## Por que vale

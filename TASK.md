@@ -18,8 +18,10 @@ risk and disaster response in fragmented Caribbean workflows.
 
 ## Prod 100 Definition
 
-- Demo runs locally as a static web app with no build step.
+- Demo runs as Vue3 CDN + SFC + UnoCSS from
+  `C:\git\websites\future_caribbean_ai_buildathon`.
 - Demo can be deployed to Netlify, Vercel, GitHub Pages or any static host.
+- Vlang product CLI generates datasets, application payload previews and QA.
 - Application answers are mapped to the official form fields.
 - External submission automation is dry-run by default and gated for real submit.
 - Evidence records official requirements, local checks and remaining blockers.
@@ -27,9 +29,11 @@ risk and disaster response in fragmented Caribbean workflows.
 
 ## Acceptance Criteria
 
-- `index.html` opens the operational demo.
-- `npm run qa:smoke` passes.
-- `npm run form:dry-run` creates a redacted payload preview.
+- `fcbuild.exe serve --site C:\git\websites\future_caribbean_ai_buildathon`
+  opens the operational demo.
+- `fcbuild.exe qa` passes.
+- `fcbuild.exe form --dry-run --allow-placeholders` creates a redacted payload
+  preview.
 - Docs cover track, demo, 3-week plan, pitch, evidence, checklist and risks.
 - Real external submit is blocked until personal identity fields and Loom link
   are provided by the applicant.

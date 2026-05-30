@@ -17,16 +17,18 @@ Verified on 2026-05-29:
 
 ## Local artifacts
 
-- Demo: `index.html`
-- App logic: `src/app.js`
-- App styling: `src/styles.css`
-- Deployment config: `netlify.toml`, `vercel.json`
+- Demo: `C:\git\websites\future_caribbean_ai_buildathon`
+- App stack: Vue3 CDN + SFC + UnoCSS runtime
+- App data: `C:\git\websites\future_caribbean_ai_buildathon\src\data`
+- V product CLI: `C:\git\v_projects\future_caribbean_ai_buildathon`
+- V reusable core: `C:\git\v_projects\lib\fc_coordination_core`
+- Deployment config: website `netlify.toml`, `vercel.json`
 - Application answers: `application/future_caribbean.answers.template.json`
 - Automation: `scripts/fill_future_caribbean_application.mjs`
 
 ## Verification log
 
-Completed on 2026-05-29:
+Completed on 2026-05-29, v0.8 legacy static slice:
 
 - `npm run qa:smoke` passed.
 - `npm run form:dry-run` passed and wrote
@@ -36,6 +38,21 @@ Completed on 2026-05-29:
 - Screenshot pixel sanity check:
   - Desktop: 1440x1000, 49 sampled unique colors.
   - Mobile: 390x1100, 28 sampled unique colors.
+
+Completed on 2026-05-29, v0.9 Vue/Vlang product slice:
+
+- `fcbuild.exe generate` passed and wrote generated answers, runbooks,
+  website data and readiness evidence.
+- `fcbuild.exe qa` passed line caps across V, Vue, JS, CSS, HTML, Markdown and
+  JSON source files.
+- `fcbuild.exe form --dry-run --allow-placeholders` passed and wrote
+  `evidence/application_payload_preview_v.json`.
+- Edge headless captured website screenshots:
+  - `C:\git\websites\future_caribbean_ai_buildathon\evidence\vue-desktop.png`
+  - `C:\git\websites\future_caribbean_ai_buildathon\evidence\vue-mobile.png`
+- Screenshot pixel sanity check:
+  - Desktop: 1440x1000, 83 sampled unique colors.
+  - Mobile: 390x1100, 58 sampled unique colors.
 
 ## Known blockers before real submission
 
