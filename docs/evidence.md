@@ -56,6 +56,10 @@ Completed on 2026-05-29, v0.9 Vue/Vlang product slice:
   - Desktop: 1440x1000, 83 sampled unique colors.
   - Mobile: 390x1100, 58 sampled unique colors.
 - GitHub Pages returned HTTP 200 for the public demo URL.
+- `vimport` generated official application-page evidence at
+  `evidence/vimport_future_caribbean_apply.json`.
+- WAIBA submission gate playbook prepared at
+  `automation/waiba/future_caribbean_submission_gate.playbook.yml`.
 
 ## Known blockers before real submission
 

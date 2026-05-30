@@ -29,6 +29,7 @@ Repos:
 - Pitch: `docs/pitch.md`
 - Application draft: `docs/application_draft.md`
 - Evidencia: `docs/evidence.md`
+- Veloclaw/WAIBA plan: `docs/veloclaw_agent_plan.md`
 - Checklist prod 100: `docs/checklist.md`
 - Riesgos: `docs/risks.md`
 - Automatizacion de formulario: `fcbuild form` en Vlang

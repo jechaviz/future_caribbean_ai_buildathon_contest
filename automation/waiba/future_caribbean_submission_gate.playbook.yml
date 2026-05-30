@@ -1,0 +1,49 @@
+metadata:
+  name: future-caribbean-submission-gate
+
+variables:
+  PROJECT_DIR: "C:/git/v_projects/contests/worth_it/future_caribbean_ai_buildathon"
+  PROFILE_ANSWERS: "${PROJECT_DIR}/application/future_caribbean.answers.local.json"
+  OUTPUT_DIR: "${PROJECT_DIR}/evidence/waiba_submission_gate"
+  APPLICATION_URL: "https://futurecaribbean.com/apply"
+
+steps:
+  prod:
+    - name: Ensure evidence output
+      action: FS.EnsureDir
+      params:
+        path: "${OUTPUT_DIR}"
+
+    - name: Record submission gate
+      action: FS.WriteText
+      register: gate_receipt
+      params:
+        path: "${OUTPUT_DIR}/submission_gate.md"
+        overwrite: true
+        text: |
+          # Future Caribbean Submission Gate
+
+          Application URL: ${APPLICATION_URL}
+          Answers source: ${PROFILE_ANSWERS}
+
+          Status: do not submit until Loom URL is present and explicit final consent is provided.
+
+          Safe automation policy:
+          - Use the existing Microsoft Edge Gmail session only if a portal login appears.
+          - Use jesus.cgalaviz@gmail.com as the account email.
+          - Do not write passwords to playbooks, logs, screenshots, or public repos.
+          - Stop for CAPTCHA, MFA, legal-consent changes, payment, or final submit.
+
+    - name: Complete receipt
+      action: Framework.MarkTaskCompleted
+      params:
+        project_dir: "${PROJECT_DIR}"
+        task_name: "future_caribbean_submission_gate"
+        summary: "Submission gate prepared; final submit remains blocked until Loom and explicit consent."
+        artifacts:
+          - "${gate_receipt}"
+
+  debug:
+    - action: Note
+      params:
+        text: "Future Caribbean submission gate parses in debug mode."
