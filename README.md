@@ -39,6 +39,7 @@ Repos:
 
 ```powershell
 C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe generate
+C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe profile-sync
 C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe qa
 C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe form --dry-run --allow-placeholders
 C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe serve --site C:\git\websites\future_caribbean_ai_buildathon

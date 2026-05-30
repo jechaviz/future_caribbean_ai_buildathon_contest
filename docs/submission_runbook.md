@@ -19,6 +19,12 @@ Edit only the local file and replace:
 
 ## 2. Validate without sending
 
+Generate ignored local answers from the private profile:
+
+```powershell
+C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe profile-sync
+```
+
 ```powershell
 C:\git\v_projects\future_caribbean_ai_buildathon\bin\fcbuild.exe form --answers application/future_caribbean.answers.local.json --dry-run
 ```
